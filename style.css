@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.corpo{
+    background-color: rgb(211, 208, 208);
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 400px;
+    border: 20px solid rgb(100, 98, 98);
+    border-radius: 20px;
+}
+.corpo section article #textoExplicativo{
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.corpo section article #buttonImprimir{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.corpo section article #buttonImprimir:hover{
+    background-color: rgb(150, 144, 144);
+    color: white;
+    box-shadow: 1px 5px 10px black;
+}
+.corpo section article #resultado{
+    background-color: rgb(211, 208, 208);
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 47px;
+    padding-top: 10px;
+    padding-left: 12px;
+    border-width: 5px;
+}
